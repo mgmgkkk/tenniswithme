@@ -278,7 +278,7 @@ export default function App() {
             ))}
 
             <div style={{ textAlign: "center" }}>
-              <button onClick={() => setPlayers([...players, { name: "", start: "16:00", end: "20:00" }])}>➕</button>
+              <button onClick={() => setPlayers([...players, { name: "", start: "19:00", end: "22:00" }])}>➕</button>
             </div>
           </div>
 
@@ -312,7 +312,7 @@ export default function App() {
             ))}
 
             <div style={{ textAlign: "center" }}>
-              <button onClick={() => setSchedule([...schedule, { time: "17:00", courts: 1 }])}>➕</button>
+              <button onClick={() => setSchedule([...schedule, { time: "19:00", courts: 1 }])}>➕</button>
             </div>
           </div>
 
