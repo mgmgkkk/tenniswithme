@@ -243,7 +243,7 @@ export default function App() {
             <h3 style={{ textAlign: "center" }}>참석자 입력</h3>
 
             {players.map((p, i) => (
-              <div key={i} style={{ display: "flex", gap: 6, justifyContent: "center", marginBottom: 8 }}>
+              <div key={i} style={{ display: "flex", gap: 4, justifyContent: "center", marginBottom: 8 }}>
                 <input
                   style={{ ...inputStyle, flex: 0.7 }}
                   value={p.name}
