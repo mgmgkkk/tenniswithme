@@ -243,9 +243,9 @@ export default function App() {
             <h3 style={{ textAlign: "center" }}>참석자 입력</h3>
 
             {players.map((p, i) => (
-              <div key={i} style={{ display: "flex", gap: 8, justifyContent: "center", marginBottom: 8 }}>
+              <div key={i} style={{ display: "flex", gap: 6, justifyContent: "center", marginBottom: 8 }}>
                 <input
-                  style={inputStyle}
+                  style={{ ...inputStyle, flex: 1}}
                   value={p.name}
                   onChange={(e) => {
                     const c = [...players];
@@ -254,7 +254,7 @@ export default function App() {
                   }}
                 />
                 <input
-                  style={inputStyle}
+                  style={{ ...inputStyle, flex:0.7}}
                   type="time"
                   value={p.start}
                   onChange={(e) => {
@@ -264,7 +264,7 @@ export default function App() {
                   }}
                 />
                 <input
-                  style={inputStyle}
+                  style={{ ...inputStyle, flex:0.7}}
                   type="time"
                   value={p.end}
                   onChange={(e) => {
@@ -286,7 +286,7 @@ export default function App() {
             <h3 style={{ textAlign: "center" }}>시간별 코트수</h3>
 
             {schedule.map((s, i) => (
-              <div key={i} style={{ display: "flex", gap: 8, justifyContent: "center", marginBottom: 8 }}>
+              <div key={i} style={{ display: "flex", gap: 6, justifyContent: "center", marginBottom: 8 }}>
                 <input
                   style={inputStyle}
                   type="time"
