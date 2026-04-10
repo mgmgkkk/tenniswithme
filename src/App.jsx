@@ -245,7 +245,7 @@ export default function App() {
             {players.map((p, i) => (
               <div key={i} style={{ display: "flex", gap: 2, justifyContent: "center", marginBottom: 8 }}>
                 <input
-                  style={{ ...inputStyle, flex: 0.7 }}
+                  style={{ ...inputStyle, width: 120 }}
                   value={p.name}
                   onChange={(e) => {
                     const c = [...players];
