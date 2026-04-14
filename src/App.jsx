@@ -490,7 +490,7 @@ export default function App() {
       {tab === "result" && (
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: 20 }}>
-            <button onClick={() => setTab("input")}>← 입력으로 돌아가기</button>
+            <button onClick={() => setTab("input")}>←입력으로 돌아가기</button>
           </div>
 
           <div style={cardStyle}>
