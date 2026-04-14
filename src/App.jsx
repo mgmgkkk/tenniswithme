@@ -354,7 +354,7 @@ const buttonStyle = {
 export default function App() {
   const [tab, setTab] = useState("input");
   const [players, setPlayers] = useState([
-    { name: "민경", start: "16:00", end: "20:00" },
+    { name: "민경", start: "19:00", end: "22:00" },
   ]);
   const [schedule, setSchedule] = useState([
     { time: "16:00", courts: 1 },
