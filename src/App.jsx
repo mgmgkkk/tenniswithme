@@ -390,7 +390,7 @@ export default function App() {
 
   return (
     <div style={containerStyle}>
-      <h1 style={{ textAlign: "center", fontSize: 32, fontWeight: 800, color="white" }}>
+      <h1 style={{ textAlign: "center", fontSize: 32, fontWeight: 800, color: "white" }}>
         TENNIS WITH ME 🎾
       </h1>
 
